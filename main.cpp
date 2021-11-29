@@ -4,9 +4,8 @@
 int main(){
   char x;
     cin >> x;
-    lettera (x);
     if (lettera (x) == true) {
-        cout << "Vero" << endl;
+        cout << a << endl;
     } else {
         cout << "errore" << endl;
         return 0;
