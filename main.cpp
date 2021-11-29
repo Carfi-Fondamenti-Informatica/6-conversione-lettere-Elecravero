@@ -1,5 +1,16 @@
 #include <iostream>
+#include "lib.h"
 
 int main(){
-  return 0;
+  char x;
+    cin >> x;
+    lettera (x);
+    if (lettera (x) == true) {
+        cout << "Vero" << endl;
+    } else {
+        cout << "errore" << endl;
+        return 0;
+    }
+
 }
+  
